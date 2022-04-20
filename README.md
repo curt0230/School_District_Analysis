@@ -26,24 +26,24 @@ Thomas High School's 9th grade class numbers approximately 460 students out of t
 ### Overall district performance
 PyCity Schools services 39,170 students across 15 schools with an annual budget of approximately $24.6 million.  Across our district, we have a passing rate of approximatley 74.8% of math students and 85.7% of reading students, but our overall passing rate is much lower at 64.9%.
 
-![district_summary.png](/Resources/district_summary.png)
+![district_summary.png](/Analysis/district_summary.png)
 
 
 Breaking down the summary above per school, we'll start to see some interesting trends across budgeting, school size, and school type and how they correlate with testing outcomes.
 
-![per_school_summary.png](/Resources/per_school_summary.png)
+![per_school_summary.png](/Analysis/per_school_summary.png)
 
 
 ### Performance by school type
 Charter schools do appear to perform significantly better than the district schools across the board.  Math scores are 6 percentage points higher, reading scores are approximately three percentage points higher, and the charter school's overall passing rate is 36% higher than that of the district schools.  The topic of why charter schools perform better than district schools warrants further investigation.
 
-![type_summary.png](/Resources/type_summary.png)
+![type_summary.png](/Analysis/type_summary.png)
 
 
 ### Performance by school size
 Class size is tightly coupled with why it appears our charter schools perform so much better than our public schools.  All schools in the small to medium categories are charter schools, where all the schools in the large category are public schools.  
 
-![size_summary.png](/Resources/size_summary.png)
+![size_summary.png](/Analysis/size_summary.png)
 
 While this metric is tightly correlated with both scores and pass rates it cannot be taken at face value as the reason charter schools outperform public schools.  There are no samples that cross the groups:  there are no large charter schools and there are no small or medium public schools.  
 
@@ -51,18 +51,18 @@ While this metric is tightly correlated with both scores and pass rates it canno
 ### Performance by per capita budget
 Interestingly enough, per capita spending seems to actually have an inverse relationship with student performance:  as spending increases student performance decreases.  Generally speaking, public schools fall into the higher per capita budget categories.  Larger facilities are required to house larger numbers of students, and often charter schools maintain much smaller athletic programs if they maintain any at all.  This may also end up being justified to an extent, but it is also an area that warrants further investigation.  
 
-![spending_summary.png](/Resources/spending_summary.png)
+![spending_summary.png](/Analysis/spending_summary.png)
 
 
 ### School rankings
 To illustrate these points, these are the top and bottom 5 ranking schools in the district.  Clearly, there are tightly coupled relationships between budget, class size, and school type when it comes to testing outcomes. 
 
 #### Top 5 schools
-![top_5_schools.png](/Resources/top_5_schools.png)
+![top_5_schools.png](/Analysis/top_5_schools.png)
 
 
 #### Bottom 5 schools
-![bottom_5_schools.png](/Resources/bottom_5_schools.png)
+![bottom_5_schools.png](/Analysis/bottom_5_schools.png)
 
 
 ## Summary
