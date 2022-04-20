@@ -55,7 +55,7 @@ Interestingly enough, per capita spending seems to actually have an inverse rela
 
 
 ### School rankings
-To illustrate these points, these are the top and bottom 5 ranking schools in the district.  Clearly, there are tightly coupled relationships between budget, class size, and school type when it comes to testing outcomes. 
+To illustrate these points, these are the top and bottom 5 ranking schools in the district.  All of the top 5 ranked schools are charter schools with smaller class sizes, lower budgets, and higher test scores, and all 5 bottom ranked schools are public schools which are opposite on each count.  This further emphasizes the tightly coupled relationships between budget, class size, and school type with relationship to testing outcomes. 
 
 #### Top 5 schools
 ![top_5_schools.png](/Analysis/top_5_schools.png)
