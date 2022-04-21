@@ -1,12 +1,14 @@
 # School_District_Analysis
 ## Project overview
-The purpose of this project was to analyze the impact of several metrics (student body size, per-capita spending, and school type (district or charter)) on reading and math scores and passing rates across the district.  Since the school board has received evidence of tampering regarding 9th grade reading and math scores from Thomas High School and since the full extent of the issue is currently unknown these scores have been stripped from the data set in order ot adhere to state testing standards.  As such, this analysis was performed twice:  once with all scores and once after the scores in question have been stripped from the data set.
+The purpose of this project was to analyze the impact of several metrics (student body size, per-capita spending, and school type (district or charter)) on reading and math scores and passing rates across the district.  Since the school board has received evidence of tampering regarding 9th grade reading and math scores from Thomas High School and since the full extent of the issue is currently unknown these scores have been stripped from the data set in order ot adhere to state testing standards.  As such, this analysis was performed twice:  once with all scores and once after the scores in question have been stripped from the data set.  All analysis and summary information presented here depicts values after the scores in question have been removed unless otherwise indicated.
+
 
 ## Resources
 * Software:  Python 3.9.7, Anaconda 4.12.0, Jupyter Notebook 6.4.5
 * Data sources:  
   * [schools_complete.csv](https://github.com/curt0230/School_District_Analysis/blob/main/Resources/schools_complete.csv)
   * [students_complete.txt](https://github.com/curt0230/School_District_Analysis/blob/main/Resources/students_complete.csv)
+
 
 ## Results
 ### Impact of data changes
@@ -22,6 +24,7 @@ At the district level:
   * Thomas High School maintained its second best ranking based on overall scores
 
 Thomas High School's 9th grade class numbers approximately 460 students out of the 39,170 students in the district, or approximately one percent of the student population.  This sample size is relavent for purposes of statistical analysis.  In general the variance in pass rates after stripping the suspect scores doesn't significantly affect the district-level metrics.
+
 
 ### Overall district performance
 PyCity Schools services 39,170 students across 15 schools with an annual budget of approximately $24.6 million.  Across our district, we have a passing rate of approximatley 74.8% of math students and 85.7% of reading students, but our overall passing rate is much lower at 64.9%.
@@ -63,6 +66,7 @@ To illustrate these points, these are the top and bottom 5 ranking schools in th
 
 #### Bottom 5 schools
 ![bottom_5_schools.png](/Analysis/bottom_5_schools.png)
+
 
 
 ## Summary
