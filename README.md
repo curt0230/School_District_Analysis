@@ -1,6 +1,6 @@
 # School_District_Analysis
 ## Project overview
-The purpose of this project was to analyze the impact of several metrics (student body size, per-capita spending, and school type (district or charter)) on reading and math scores and passing rates across the district.  Since the school board has received evidence of tampering regarding 9th grade reading and math scores from Thomas High School and since the full extent of the issue is currently unknown these scores have been stripped from the data set in order ot adhere to state testing standards.  As such, this analysis was performed twice:  once with all scores and once after the scores in question have been stripped from the data set.  All analysis and summary information presented here depicts values after the scores in question have been removed unless otherwise indicated.
+The purpose of this project was to analyze the impact of several metrics (student body size, per-capita spending, and school type (district or charter)) on reading and math scores and passing rates across the district.  Since the school board has received evidence of tampering regarding 9th grade reading and math scores from Thomas High School and since the full extent of the issue is currently unknown these scores have been stripped from the data set in order ot adhere to state testing standards.  As such, this analysis was performed twice:  once with all scores and once after the scores in question have been stripped from the data set.  All analysis and summary information presents adjusted scores otherwise indicated.
 
 
 ## Resources
@@ -23,7 +23,7 @@ At the district level:
   * Overall passing scores dropped .3% from 65.2% to 64.9%
   * Thomas High School maintained its second best ranking based on overall scores
 
-Thomas High School's 9th grade class numbers approximately 460 students out of the 39,170 students in the district, or approximately one percent of the student population.  This sample size is relavent for purposes of statistical analysis.  In general the variance in pass rates after stripping the suspect scores doesn't significantly affect the district-level metrics.
+Thomas High School's 9th grade class numbers approximately 460 students out of the 39,170 students in the district, or approximately one percent of the student population.  This sample size is relavent for purposes of statistical analysis.  In general the variance in pass rates after stripping the suspect scores doesn't however significantly affect the district-level metrics.
 
 
 ### Overall district performance
@@ -70,4 +70,6 @@ To illustrate these points, these are the top and bottom 5 ranking schools in th
 
 
 ## Summary
-Based on the data sets used for this analysis it is not possible to identify individual suspect scores or to determine the extent of the impact.  As a result, scores for the full 9th grade class were excluded from analysis to comply with state testing standards.  This did have a minimal impact on the district's reading, math, and overall passing rates as well as those rates for Thomas High School.  The school, however, did maintain its placement as the number two school in the district.  That seems to imply that this issue wasn't terribly pervasive, however the individual student scores should be inspected to identify the offenders.  Once that is achieved this analysis can be repeated on the entire data set, however this may not be deemed necessary given the 99% sample size for the project.
+As the result of a suspected tampering incident, scores for the full 9th grade class of Thomas High School, or 460 students, were excluded from school performance analysis to comply with state testing standards.  This did have a minimal impact on the district's reading, math, and overall pass rates as well as a more significant impact on those rates for Thomas High School.  The school, however, maintained its placement as the number two school in the district.  
+
+Individual student scores should be inspected to identify the offenders, and once that is achieved this analysis can be repeated including the affected class.  Based on the data sets used for this analysis it is not possible to identify individual suspect scores or to determine the extent of the impact, and it may not be deemed necessary to repeat the analysis given the 99% sample size for the project.
